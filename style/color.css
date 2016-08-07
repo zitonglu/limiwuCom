@@ -15,6 +15,7 @@ body{
 	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 }
+
 .cat{
 	background: #428bca;
 }
@@ -29,6 +30,9 @@ body{
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 .tit{
+	background-color: rgba(0,0,0,0.2);
+}
+.post-box:hover .tit{
 	background-color: rgba(0,0,0,0.5);
 }
 .tit>p>a{
@@ -37,6 +41,12 @@ body{
 .tit>hr{
 	border:none;
 	border-top:2px dotted #ddd;
+}
+.tit>h3{
+	background-color: rgba(0,0,0,0.15);
+}
+.post-box:hover .tit h3{
+	background-color:rgba(0,0,0,0);
 }
 .tit>h3>a{
 	color:rgb(243, 237, 115);
