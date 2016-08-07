@@ -1,8 +1,17 @@
 /*for limiwu.com*/
+body{
+	background-color:#ecf0f1
+}
 .post-list{
-	background-color: #CCC;
+	background-color: #ecf0f1;
+	border-color: #fff;
 }
 .post-box{
 	background-color: #000;
-	border-color: #ddffee;
+	border-color: #fff;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 }
