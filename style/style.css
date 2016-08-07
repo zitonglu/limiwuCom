@@ -5,6 +5,13 @@ body{
 	padding-top:70px;
 	font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.cat>a:hover,
+.tit>p>a:hover,
+.tit>h3>a:hover,
+.tim>a{
+	text-decoration: none;
+}
+
 .post-list{
 	padding:0px;
 }
@@ -31,9 +38,6 @@ body{
 	max-height: 24px;
 	z-index: 10;
 }
-.cat>a:hover{
-	text-decoration: none;
-}
 .tim{
 	position: relative;
 	float: right;
@@ -46,4 +50,28 @@ body{
 	text-transform: uppercase;
 	width:73px;
 	z-index: 29;
+}
+.tit{
+	padding:130px 10px 5px;
+	height: 240px;
+}
+.tit hr{
+	margin:5px auto;
+	padding: 0px;
+}
+.tit>p{
+	padding: 0;
+	margin: 0;
+	height: 34px;
+	line-height: 18px;
+	overflow: hidden;
+	text-indent: 2em;
+}
+.tit>h3{
+	font-size: 18px;
+	margin-top: 5px;
+	overflow: hidden;
+	max-height: 48px;
+	line-height: 24px;
+	text-align: right;
 }

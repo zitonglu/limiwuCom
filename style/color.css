@@ -24,7 +24,20 @@ body{
 .cat>a:active{
 	color: #fff;
 }
-.tim{
+.tim>a{
 	color: #fff;
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.tit{
+	background-color: rgba(0,0,0,0.5);
+}
+.tit>p>a{
+	color:#eee;
+}
+.tit>hr{
+	border:none;
+	border-top:2px dotted #ddd;
+}
+.tit>h3>a{
+	color:rgb(243, 237, 115);
 }
