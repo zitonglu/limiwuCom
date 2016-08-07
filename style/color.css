@@ -1,2 +1,8 @@
 /*for limiwu.com*/
-@import url(color.css);
+.post-list{
+	background-color: #CCC;
+}
+.post-box{
+	background-color: #000;
+	border-color: #ddffee;
+}
