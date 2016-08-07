@@ -1,9 +1,9 @@
 /*for limiwu.com*/
 body{
-	background-color:#ecf0f1
+	background-color:#f8f8f8;
 }
 .post-list{
-	background-color: #ecf0f1;
+	background-color:#f8f8f8;
 	border-color: #fff;
 }
 .post-box{
@@ -14,4 +14,17 @@ body{
 	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.cat{
+	background: #428bca;
+}
+.cat>a,
+.cat>a:hover,
+.cat>a:visited,
+.cat>a:active{
+	color: #fff;
+}
+.tim{
+	color: #fff;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
