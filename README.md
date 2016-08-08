@@ -1,2 +1,3 @@
 # limiwuCom
-my blog｛www.limiwu.com｝'s html web。
+my blog's html web。
+http://www.limiwu.com
