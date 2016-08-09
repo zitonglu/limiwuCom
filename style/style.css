@@ -22,7 +22,9 @@ body{
 .post-box .tit,
 .post-box:hover .tit,
 .post-box .tit h3,
-.post-box:hover .tit h3{
+.post-box:hover .tit h3,
+.post-box .tit>h3>a,
+.post-box:hover .tit>h3>a{
 	-webkit-transition: all .8s;
 	-moz-transition: all .8s;
 	-ms-transition: all .8s;
