@@ -118,3 +118,22 @@ body{
 	line-height: 24px;
 	text-align: right;
 }
+.bottom p{
+	padding-top: 12px;
+	padding-left:20px;
+	font-size: 2.6rem;
+}
+@media (max-width: 749px) {
+	.bottom p{font-size:12px;padding-left:0;}
+}
+.bottom-a{
+	margin-left:.2em;
+	margin-right:.2em;
+}
+.bdsharebuttonbox{
+	max-width: 304px;
+	margin: 0px auto;
+}
+.weixin-share-p{
+	margin-top: 10px;
+}

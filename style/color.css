@@ -2,6 +2,9 @@
 body{
 	background-color:#f8f8f8;
 }
+#home{
+	padding-bottom: 20px;
+}
 .post-list{
 	background-color:#f8f8f8;
 	border-color: #000;
@@ -17,7 +20,7 @@ body{
 }
 
 .cat{
-	background: #428bca;
+	background-color: #428bca;
 }
 .cat>a,
 .cat>a:hover,
@@ -52,5 +55,18 @@ body{
 	color:rgb(255, 255, 255);
 }
 .post-box:hover .tit>h3>a{
+	color:rgb(251, 248, 0);
+}
+.bottom{
+	background-color:#428bca;
+}
+.bottom p{
+	color: #fff;
+}
+.bottom-a,
+.bottom-a:hover,
+.bottom-a:link,
+.bottom-a:visited,
+.bottom-a:active{
 	color:rgb(251, 248, 0);
 }
