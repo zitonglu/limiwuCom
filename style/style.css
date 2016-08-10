@@ -131,8 +131,8 @@ body{
 		text-align: center;
 	}
 	.bottom>div{
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-top: 10px;
+	padding-bottom: 12px;
 	}
 }
 .bottom-a{
@@ -148,4 +148,14 @@ body{
 }
 .bottom-div .btn{
 	width: 33.333333%;
+}
+.footer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+@media (max-width: 749px){
+	.footer{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
 }
