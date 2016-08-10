@@ -118,13 +118,22 @@ body{
 	line-height: 24px;
 	text-align: right;
 }
-.bottom p{
-	padding-top: 12px;
-	padding-left:20px;
-	font-size: 2.6rem;
+.bottom>div{
+	padding-top: 18px;
+	padding-bottom: 12px;
+}
+.bottom-div p{
+	font-size: 2.5rem;
 }
 @media (max-width: 749px) {
-	.bottom p{font-size:12px;padding-left:0;}
+	.bottom-div p{
+		font-size:16px;
+		text-align: center;
+	}
+	.bottom>div{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	}
 }
 .bottom-a{
 	margin-left:.2em;
@@ -136,4 +145,7 @@ body{
 }
 .weixin-share-p{
 	margin-top: 10px;
+}
+.bottom-div .btn{
+	width: 33.333333%;
 }
