@@ -19,6 +19,9 @@ body{
 .cat{
 	background-color: #428bca;
 }
+.top-box .cat{
+	background-color: #c9302c;
+}
 .cat>a,
 .cat>a:hover,
 .cat>a:visited,
@@ -44,6 +47,9 @@ body{
 }
 .tit>h3{
 	background-color: rgba(0,0,0,0.2);
+}
+.top-box .tit>h3{
+	background-color: rgba(0,0,0,0.5);
 }
 .post-box:hover .tit h3{
 	background-color:rgba(0,0,0,0);

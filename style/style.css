@@ -37,14 +37,17 @@ body{
 .post-list{
 	padding:5px;
 }
+.top-box,
 .post-box{
 	height: 240px;
 	overflow: hidden;
-	border-style:solid;
-	border-width:6px;
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:cover;
+}
+.post-box{
+	border-style:solid;
+	border-width:6px;
 }
 .cat{
 	position: relative;
@@ -114,9 +117,15 @@ body{
 	padding-left:10px;
 	padding-right:10px;
 	overflow: hidden;
-	height: 48px;
+	height: 60px;
 	line-height: 24px;
 	text-align: right;
+}
+.top-box .tit>h3{
+	text-align:left;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:5px;
 }
 .bottom>div{
 	padding-top: 18px;
