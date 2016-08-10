@@ -31,13 +31,13 @@ body{
 	-o-transition: all .8s;
 	transition: all .8s;
 }
-
+#home{
+	padding-bottom: 20px;
+}
 .post-list{
-	padding:0px;
+	padding:5px;
 }
 .post-box{
-	margin:1.5%;
-	min-width:93%;
 	height: 240px;
 	overflow: hidden;
 	border-style:solid;
