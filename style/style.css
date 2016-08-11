@@ -251,3 +251,21 @@ body{
 	margin: 0 0 10px 0;
 	}
 }
+.time{
+	padding-bottom:18px;
+	margin-bottom: 18px;
+}
+.single-left p,
+.single-left li{
+	font-size: 16px;
+	line-height: 28px;
+}
+.single-left ul p,
+.single-left ol p{
+	margin: 0;
+}
+.single-left img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

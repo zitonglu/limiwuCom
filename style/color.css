@@ -108,3 +108,11 @@
 .time{
 	color:rgb(119,119,119);
 }
+.time{
+	border-bottom: 1px dotted #ddd;
+}
+@media (max-width: 749px){
+	.time{
+		border-bottom:none;
+	}
+}
