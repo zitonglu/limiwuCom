@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>厘米屋网站模版</title>
+    <title>单页模版</title>
     <link rel='stylesheet prefetch' href='style/bootstrap.min.css'>
     <!-- <link rel='stylesheet prefetch' href='http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css'> -->
     <link rel="stylesheet prefetch" href="style/style.css">
 </head>
-<body id="home">
+<body id="single">
 <!-- 导航 -->
-<div class="container body">
+<div class="container">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -22,7 +22,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Paipk.com</a>
+				<a class="navbar-brand" href="#">Paipk</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,125 +33,19 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	<div class="col-md-8 col-sm-12 post-list">
-		<div id="carousel-example-generic" class="post-box carousel slide" data-ride="carousel">
-			<!-- Wrapper for slides -->
-			 <div class="carousel-inner" role="listbox">
-			   <div class="item active">
-			     <div class="top-box" style="background-image:url(images/test.png)">
-			       <div class="tim"><a href="">11月<br>24</a></div>
-			       <div class="cat">
-			       	<a href="#">杂谈</a>
-			       </div>
-			       <div class="tit">
-			       	<p></p>
-			       	<h3><a href="#">浅到深，开始是通过实例形式给我们讲解了一个比较简单的moveMessage()函数，它将元素在规定时间里沿“右下”方向进行了位移。</a></h3>
-			       </div>
-			     </div>
-			   </div>
-			   <div class="item">
-			     <div class="top-box" style="background-image:url(images/1.jpg)">
-			     	<div class="tim"><a href="#">6月<br>29</a></div>
-			     	<div class="cat">
-			     		<a href="#">这是一个分页面，最长能显示这么多！</a>
-			     	</div>
-			     	<div class="tit">
-						<p></p>
-			     		<h3><a href="#">浅到深，开始是通过实例</a></h3>
-			     	</div>
-			     </div>
-			   </div>
-			 </div>
-			 <!-- Controls -->
-			   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			     <span class="sr-only">Previous</span>
-			   </a>
-			   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			     <span class="sr-only">Next</span>
-			   </a>
+	<div class="head row">
+		<div class="col-sm-4 hidden-xs">
+			<img src="images/logo.png" alt="网站LOGO">
+		</div>
+		<div class="col-sm-5 col-sm-offset-3 col-md-4 col-md-offset-4 search-box">
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="输入搜索内容">
+				</div>
+				<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+			</form>
 		</div>
 	</div>
-	<div class="col-md-4 col-sm-6 post-list">
-		<div class="post-box" style="background-image:url(images/test.png)">
-			<div class="tim"><a href="">11月<br>24</a></div>
-			<div class="cat">
-				<a href="#">杂谈</a>
-			</div>
-			<div class="tit">
-				<p><a href="#">给我们讲解了一个比较简单的moveMessage()函数，它将元素在规定时间里沿“右下”方向进行了位移。然后，我们有对这个函数进行了改进。将原有的固定ID变成了可选择性的elementId，将原有的固定left，right值改变成可设置的</a></p>
-				<hr>
-				<h3><a href="#">浅到深，开始是通过实例形式给我们讲解了一个比较简单的moveMessage()函数，它将元素在规定时间里沿“右下”方向进行了位移。</a></h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6 post-list">
-		<div class="post-box" style="background-image:url(images/1.jpg)">
-			<div class="tim"><a href="#">6月<br>29</a></div>
-			<div class="cat">
-				<a href="#">这是一个分页面，最长能显示这么多！</a>
-			</div>
-			<div class="tit">
-				<p><a href="#">给我们讲向进行了位</a></p>
-				<hr>
-				<h3><a href="#">浅到深，开始是通过实例</a></h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6 post-list">
-		<div class="post-box" style="background-image:url(images/3.png)">
-			<div class="tim"><a href="">12月<br>22</a></div>
-			<div class="cat">
-				<a href="#">能这么多！</a>
-			</div>
-			<div class="tit">
-				<p><a href="#">给我们讲向进行了位这是一个分页面，最长能显示这么多！这是一个分页面多！</a></p>
-				<hr>
-				<h3><a href="#">这是文章标题而已</a></h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6 post-list">
-		<div class="post-box" style="background-image:url(images/2.jpg)">
-			<div class="tim"><a href="">8月<br>18</a></div>
-			<div class="cat">
-				<a href="#">文章标题</a>
-			</div>
-			<div class="tit">
-				<p><a href="#">文章导航：用于简单介绍文章所表述的内容，鼠标移动上去就显示</a></p>
-				<hr>
-				<h3><a href="#">文章的大标题，可转行</a></h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6 post-list">
-		<div class="post-box" style="background-image:url(images/2.jpg)">
-			<div class="tim"><a href="">8月<br>18</a></div>
-			<div class="cat">
-				<a href="#">文章标题</a>
-			</div>
-			<div class="tit">
-				<p><a href="#">文章导航：用于简单介绍文章所表述的内容，鼠标移动上去就显示</a></p>
-				<hr>
-				<h3><a href="#">文章的大标题，可转行</a></h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 col-sm-6 post-list">
-		<div class="post-box" style="background-image:url(images/4.jpg)">
-			<div class="tim"><a href="">8月<br>7</a></div>
-			<div class="cat">
-				<a href="#">文章标题</a>
-			</div>
-			<div class="tit">
-				<p><a href="#">文章导航：用于简单介绍文章所表述的内容，鼠标移动上去就显示</a></p>
-				<hr>
-				<h3><a href="#">文章的大标题，可转行</a></h3>
-			</div>
-		</div>
-	</div>
-	<div class="claerfix"></div>
 </div>
 <div class="container-fluid bottom">
 	<div class="container"><div class="row">

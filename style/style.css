@@ -31,7 +31,7 @@ body{
 	-o-transition: all .8s;
 	transition: all .8s;
 }
-#home{
+.body{
 	padding-bottom: 20px;
 }
 .post-list{
@@ -188,4 +188,8 @@ body{
 }
 .footer-list p{
 	margin: 0px;
+}
+/*single*/
+.search-box{
+	margin-top: 15px;
 }
