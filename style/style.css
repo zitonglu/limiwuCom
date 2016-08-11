@@ -5,6 +5,11 @@ body{
 	padding-top:70px;
 	font-family:"微软雅黑","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+@media (max-width: 749px){
+	body{
+		padding-top:55px;
+	}
+}
 .cat>a:hover,
 .tit>p>a:hover,
 .tit>h3>a:hover,
@@ -192,4 +197,57 @@ body{
 /*single*/
 .search-box{
 	margin-top: 15px;
+}
+.breadcrumb{
+	margin: 0px;
+	padding: 2px 0px;
+}
+.single-body{
+	margin-bottom: 10px;
+}
+.single-nav{
+	margin-bottom: 5px;
+}
+.single-box{
+	padding: 5px;
+}
+.single-left,
+.single-right{
+	padding: 20px;
+}
+@media (max-width: 749px){
+	.single-box{
+		padding: 5px 0px;
+	}
+	.single-left,
+	.single-right{
+		padding:10px;
+	}
+}
+.single-left>h1{
+	font-size: 24px;
+	font-weight: bolder;
+	margin: 0 0 20px 0;
+	line-height: 30px;
+	text-align: center;
+}
+.Subtitle{
+	margin-top:-5px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.time{
+	font-size: 14px;
+	text-align: center;
+}
+@media (max-width: 749px){
+	.single-left>h1,
+	.time{
+	text-align:left;
+	}
+	.single-left>h1{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 0 10px 0;
+	}
 }

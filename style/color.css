@@ -74,7 +74,8 @@
 	color:rgb(251, 248, 0);
 }
 #single,
-.footer{
+.footer,
+.breadcrumb{
     background-color: #eee;   
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);   
     background-size: 6px 6px;
@@ -87,4 +88,23 @@
 	.footer h5{
 		border-top: 1px dotted rgb(200, 200, 200);
 	}
+}
+.single-left,
+.single-right{
+	background-color: #f8f8f8;
+}
+@media (max-width: 749px){
+	#single,
+	.single-left,
+	.single-right{
+		background-color:#f0f0f0;
+		background-image:none;
+	}
+}
+.single-left{
+	color:rgb(51, 51, 51);
+}
+.Subtitle,
+.time{
+	color:rgb(119,119,119);
 }
