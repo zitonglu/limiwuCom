@@ -75,7 +75,7 @@
 }
 #single,
 .footer,
-.breadcrumb{
+#single .breadcrumb{
     background-color: #eee;   
     background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);   
     background-size: 6px 6px;
@@ -115,4 +115,18 @@
 	.time{
 		border-bottom:none;
 	}
+}
+.flip{
+	border-top: 1px dotted rgb(200, 200, 200);
+	border-bottom: 1px dotted rgb(200, 200, 200);
+}
+.next-pre-text{
+	color: #777;
+}
+.next-pre-text a{
+	color: rgb(51, 51, 51)
+}
+.next-pre-text a:hover,
+.next-pre-text a:focus{
+	color: #23527c;
 }

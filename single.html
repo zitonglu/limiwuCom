@@ -57,7 +57,7 @@
 <!-- 文章正文 -->
 <div class="container">
 	<div class="row single-body">
-		<div class="col-sm-9 single-box">
+		<div class="col-md-9 single-box">
 			<div class="single-left">
 				<h1>文字标题，要考虑到文字大小及转行所带来的问题 文字过长不做限制，因为有的时候是这样的</h1>
 				<p class="Subtitle text-right">——副标题为文章说明性</p>
@@ -81,9 +81,41 @@
 						<li>世界上很多</li>
 					</p>
 				</ul>
-			</div>
+				<pre>To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+To edit settings, press </pre>
+					<p>
+To switch directories, type <code>cd</code> followed by the name of the directory.To edit settings, press
+					</p>
+				<nav class="text-center flip"><!-- 文章分页路径 -->
+				  <ul class="pagination">
+				    <li>
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+				<p class="next-pre-text">上一篇：<a href="#" title="...">为了更好的服务于社会的基本情况</a></p>
+				<p class="next-pre-text">下一篇：<a href="#" title="...">为了送给你时光机耳机收割机哦</a></p>
+			</div><!-- single-left end -->
+<div class="text-center more-share">
+	<a class="btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;上一篇</a>
+	<a class="btn btn-info" href="#" role="button" data-toggle="modal" data-target="#myshang"><span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;打赏</a>
+	<a class="btn btn-info" href="#" role="button" data-toggle="modal" data-target="#myshare"><span class="glyphicon glyphicon-qrcode"></span>&nbsp;文章分享</a>
+	<a class="btn btn-default" href="#" role="button">下一篇&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
 		</div>
-		<div class="col-sm-3 single-box">
+		<div class="col-md-3 single-box">
 			<div class="single-right">123</div>
 		</div>
 	</div>
@@ -121,6 +153,27 @@
     </div>
   </div>
 </div><!-- Modal end -->
+<!-- Modal2 -->
+<div class="modal fade" id="myshang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">谢谢您的打赏</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/1.jpg" class="img-responsive center-block" alt="...">
+        <p class="text-center weixin-share-p">打开微信，点击底部的“发现”，<br>使用“扫一扫”即可将请我喝可乐</p>
+<!-- baidu share -->
+        	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到QQ好友" href="#" class="bds_sqq" data-cmd="sqq"></a><a title="分享到复制网址" href="#" class="bds_copy" data-cmd="copy"></a><a title="分享到打印" href="#" class="bds_print" data-cmd="print"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script><!-- baidu share end-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭窗口</button>
+      </div>
+    </div>
+  </div>
+</div><!-- Modal2 end -->
 <div class="container-fluid footer">
 	<div class="container">
 		<div class="footer-list col-sm-2 col-md-1">

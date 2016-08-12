@@ -269,3 +269,17 @@ body{
 	max-width: 100%;
 	height: auto;
 }
+.flip{
+	padding:10px auto;
+	margin:30px auto;
+}
+.next-pre-text{
+	margin: 0px;
+}
+.next-pre-text a:hover,
+.next-pre-text a:focus{
+	text-decoration: none;
+}
+.more-share{
+	margin-top: 15px;
+}
