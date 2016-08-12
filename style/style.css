@@ -302,7 +302,7 @@ body{
 .more-text>div{
 	padding:5px;
 }
-.more-text-box p{
+.more-text-box p.more-text-title{
 	height: 36px;
 	margin-top: 204px;
 	font-size: 16px;
@@ -311,7 +311,39 @@ body{
 	text-overflow:ellipsis;
 	overflow:hidden;
 }
-.more-text-box p a{
-	padding-left:10px;
-	padding-right: 10px; 
+.more-text-box p.more-text-title a{
+	margin-left:10px;
+	margin-right:10px; 
+}
+.more-text-box p.BMT-title{
+	padding-top: 80px;
+	font-size: 16px;
+	height: 240px;
+	text-align: center;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	/*margin-top: -240px;*/
+}
+.more-text-box p.BMT-title a{
+	padding:10px;
+}
+.more-text-box:hover p.more-text-title{
+	opacity: 0;
+}
+.more-text-box:hover p.BMT-title{
+	animation:p_come .5s ease-out;
+	animation-fill-mode:forwards;
+}
+@keyframes p_come{
+	0%{margin-top:-240px;}
+	100%{margin-top:0px;}
+}
+.more-text-box p.BMT-title{
+	animation:p_out .5s ease-out;
+	animation-fill-mode:forwards;
+}
+@keyframes p_out{
+	0%{margin-top:0px;}
+	100%{margin-top:-240px;}
 }

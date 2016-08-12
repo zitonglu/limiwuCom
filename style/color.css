@@ -141,6 +141,10 @@
 .more-text-box p{
 	background-color: rgba(30,30,30,0.7);
 }
-.more-text-box p a{
+.more-text-box p a,
+.more-text-box p{
 	color: #fff;
+}
+.more-text-box p.BMT-title a{
+	border:5px solid rgba(255,255,255,0.7);
 }
