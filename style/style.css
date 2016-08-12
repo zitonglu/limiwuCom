@@ -43,7 +43,8 @@ body{
 	padding:5px;
 }
 .top-box,
-.post-box{
+.post-box,
+.more-text-box{
 	height: 240px;
 	overflow: hidden;
 	background-repeat:no-repeat;
@@ -277,9 +278,40 @@ body{
 	margin: 0px;
 }
 .next-pre-text a:hover,
-.next-pre-text a:focus{
+.next-pre-text a:focus,
+.more-text-box p a:hover,
+.more-text-box p a:focus{
 	text-decoration: none;
 }
 .more-share{
 	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.more-text{
+	margin-bottom:15px;
+	margin-left: -5px;
+	margin-right: -5px;
+	padding:0px;
+}
+@media (max-width: 749px){
+	.more-text{
+		margin-left:3px;
+		margin-right:3px;
+	}
+}
+.more-text>div{
+	padding:5px;
+}
+.more-text-box p{
+	height: 36px;
+	margin-top: 204px;
+	font-size: 16px;
+	text-align: center;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.more-text-box p a{
+	padding-left:10px;
+	padding-right: 10px; 
 }
