@@ -333,6 +333,10 @@ body{
 	padding:10px;
 }
 @media (min-width: 749px){
+	.more-text-box p.BMT-title{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 	.more-text-box:hover p.more-text-title{
 		opacity: 0;
 	}
