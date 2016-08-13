@@ -184,3 +184,17 @@
 	background: #f5f5f5;
 	border: 1px solid #eaeaea;
 }
+#divFavorites a,
+#divLinkage a,
+#divCatalog a,
+#divMisc a,
+#divTags a{
+	color: #666;
+}
+#divFavorites li a:hover,
+#divLinkage li a:hover,
+#divCatalog li a:hover,
+#divMisc li a:hover,
+#divTags li a:hover{
+	text-decoration: none;
+}
