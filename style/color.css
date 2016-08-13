@@ -90,7 +90,7 @@
 	}
 }
 .single-left,
-.single-right{
+.widget{
 	background-color: #f8f8f8;
 }
 @media (max-width: 749px){
@@ -156,4 +156,31 @@
 }
 .media-heading b{
 	color: #bbb;
+}
+@media (min-width: 749px){
+	.single-left,
+	.widget{
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+		-o-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+		-ms-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	}
+}
+.widget h5{
+	background-color:#e7e7e7;
+	color: #555;
+}
+#tbCalendar td:hover,
+#tbCalendar th:hover {
+	background-color: #ddd;
+}
+#divFavorites li,
+#divLinkage li,
+#divCatalog li,
+#divMisc li,
+#divTags li{
+	color: #666;
+	background: #f5f5f5;
+	border: 1px solid #eaeaea;
 }

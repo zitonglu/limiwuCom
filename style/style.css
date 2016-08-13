@@ -212,16 +212,14 @@ body{
 .single-box{
 	padding: 5px;
 }
-.single-left,
-.single-right{
+.single-left{
 	padding: 20px;
 }
 @media (max-width: 749px){
 	.single-box{
 		padding: 5px 0px;
 	}
-	.single-left,
-	.single-right{
+	.single-left{
 		padding:10px;
 	}
 }
@@ -421,4 +419,66 @@ body{
 		font-size: 15px;
 		margin-bottom: 0px;
 	}
+}
+/*.single-right*/
+.widget{
+	margin-bottom: 10px;
+}
+.widget h5{
+	margin: 0px;
+	padding:5px 10px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	font-size:16px;
+}
+.widget>div{
+	padding:10px;
+}
+#tbCalendar{
+	margin: 0 auto;
+}
+#tbCalendar td,
+#tbCalendar th {
+	padding: 5px;
+	text-align: center
+}
+#tbCalendar caption {
+	padding: 6px 0;
+	text-align: center
+}
+#divFavorites div,
+#divFavorites ul,
+#divLinkage div,
+#divLinkage ul,
+#divCatalog div,
+#divCatalog ul,
+#divMisc div,
+#divMisc ul,
+#divTags div,
+#divTags ul{
+	list-style: none;
+	display: inline-block;
+}
+#divFavorites ul,
+#divLinkage ul,
+#divCatalog ul,
+#divMisc ul,
+#divTags ul{
+	margin-left:-40px;
+	margin-bottom:0px;
+}
+#divFavorites li,
+#divLinkage li,
+#divCatalog li,
+#divMisc li,
+#divTags li{
+	margin: 0 3px 3px 0;
+	padding: 1px 10px 3px;
+	display: inline-block;
+	text-decoration: none;
+	-moz-border-radius: 1px;
+	-khtml-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
 }
