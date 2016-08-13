@@ -151,3 +151,9 @@
 .comment-post{
 	border-bottom:2px dotted rgb(200, 200, 200);
 }
+.comment-box img{
+	border:1px solid rgb(200, 200, 200);
+}
+.media-heading b{
+	color: #bbb;
+}
