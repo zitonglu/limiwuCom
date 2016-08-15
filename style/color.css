@@ -191,10 +191,18 @@
 #divTags a{
 	color: #666;
 }
-#divFavorites li a:hover,
-#divLinkage li a:hover,
-#divCatalog li a:hover,
-#divMisc li a:hover,
-#divTags li a:hover{
-	text-decoration: none;
+#divFavorites li:hover,
+#divLinkage li:hover,
+#divCatalog li:hover,
+#divMisc li:hover,
+#divTags li:hover{
+	background-color:#98699b;
+	color: rgb(245,245,245);
+}
+#divFavorites li:hover a,
+#divLinkage li:hover a,
+#divCatalog li:hover a,
+#divMisc li:hover a,
+#divTags li:hover a{
+	color: rgb(245,245,245);
 }
