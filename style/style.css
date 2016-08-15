@@ -426,7 +426,7 @@ body{
 }
 .widget h5{
 	margin: 0px;
-	padding:5px 10px;
+	padding:5px 10px 8px;
 	white-space:nowrap;
 	text-overflow:ellipsis;
 	overflow:hidden;
@@ -487,4 +487,18 @@ body{
 #divMisc li a:hover,
 #divTags li a:hover{
 	text-decoration: none;
+}
+#divComments ul{
+	margin-left:-40px;
+}
+#divComments li{
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+.img-comment {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right:10px;
+	border-radius:10%;
 }
