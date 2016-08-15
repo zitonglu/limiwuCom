@@ -488,11 +488,18 @@ body{
 #divTags li a:hover{
 	text-decoration: none;
 }
-#divComments ul{
+#divComments ul,
+#divArchives ul{
 	margin-left:-40px;
 }
 #divComments li{
 	margin-bottom: 10px;
+	list-style-type: none;
+}
+#divArchives li{
+	width: 49%;
+	display: inline-block;
+	text-align: center;
 	list-style-type: none;
 }
 .img-comment {
