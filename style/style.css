@@ -456,7 +456,9 @@ body{
 #divMisc div,
 #divMisc ul,
 #divTags div,
-#divTags ul{
+#divTags ul,
+#divPrevious div,
+#divPrevious ul{
 	list-style: none;
 	display: inline-block;
 }
@@ -488,14 +490,17 @@ body{
 #divLinkage li a:hover,
 #divCatalog li a:hover,
 #divMisc li a:hover,
-#divTags li a:hover{
+#divTags li a:hover,
+#divPrevious li a:hover{
 	text-decoration: none;
 }
 #divComments ul,
-#divArchives ul{
+#divArchives ul,
+#divPrevious ul{
 	margin-left:-40px;
 }
-#divComments li{
+#divComments li,
+#divPrevious li{
 	margin-bottom: 10px;
 	list-style-type: none;
 }
@@ -514,4 +519,16 @@ body{
 }
 .tag-count{
 	font-size: 10px;
+}
+#divPrevious img{
+	width: 100%;
+	border: 0;
+	display: block;
+	margin: 0 auto 10px auto;
+	max-width: 400px;
+}
+#divPrevious span{
+	line-height: 20px;
+	overflow: hidden;
+	display: block;
 }
