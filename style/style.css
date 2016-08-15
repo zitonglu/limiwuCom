@@ -471,7 +471,6 @@ body{
 #divFavorites li,
 #divLinkage li,
 #divCatalog li,
-#divMisc li,
 #divTags li{
 	margin: 0 3px 3px 0;
 	padding: 1px 10px 3px;
@@ -480,6 +479,10 @@ body{
 	-khtml-border-radius: 1px;
 	-webkit-border-radius: 1px;
 	border-radius: 1px;
+}
+#divMisc li{
+	display: inline-block;
+	padding: 3px;
 }
 #divFavorites li a:hover,
 #divLinkage li a:hover,
@@ -508,4 +511,7 @@ body{
 	float: left;
 	margin-right:10px;
 	border-radius:10%;
+}
+.tag-count{
+	font-size: 10px;
 }
