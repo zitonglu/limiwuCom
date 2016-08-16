@@ -10,11 +10,11 @@ body{
 		padding-top:55px;
 	}
 }
-.subname{text-indent:2em}
 .cat>a:hover,
 .tit>p>a:hover,
 .tit>h3>a:hover,
-.tim>a{
+.tim>a,
+.list-left a{
 	text-decoration: none;
 }
 .post-box,
@@ -45,7 +45,8 @@ body{
 }
 .top-box,
 .post-box,
-.more-text-box{
+.more-text-box,
+.media-box{
 	height: 240px;
 	overflow: hidden;
 	background-repeat:no-repeat;
@@ -80,6 +81,8 @@ body{
 	text-transform: uppercase;
 	width:73px;
 	z-index: 29;
+}
+.post-box .tim{
 	filter:alpha(Opacity=0);
 	-moz-opacity:0;
 	opacity: 0;
@@ -125,7 +128,7 @@ body{
 	padding-right:10px;
 	overflow: hidden;
 	height: 60px;
-	line-height: 24px;
+	line-height: 26px;
 	text-align: right;
 }
 .top-box .tit>h3{
@@ -213,14 +216,16 @@ body{
 .single-box{
 	padding: 5px;
 }
-.single-left{
+.single-left,
+.list-left{
 	padding: 20px;
 }
 @media (max-width: 749px){
 	.single-box{
 		padding: 5px 0px;
 	}
-	.single-left{
+	.single-left,
+	.list-left{
 		padding:10px;
 	}
 }
@@ -264,7 +269,8 @@ body{
 .single-left ol p{
 	margin: 0;
 }
-.single-left img{
+.single-left img,
+.list-left .media-body img{
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -532,4 +538,55 @@ body{
 	line-height: 20px;
 	overflow: hidden;
 	display: block;
+}
+.media-box{
+	width: 240px;
+}
+.list-left .media-left{
+	padding-right:20px;
+}
+@media (max-width: 749px){
+	.list-left .media-left{
+		display:block;
+		width: 100%;
+		padding-right:10px;
+	}
+	.media-box{
+		width: 100%;
+	}
+}
+.list-left .media-body hr{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.list-left .media-body h4{
+	font-weight: bold;
+}
+@media (min-width: 479px){
+	.list-left .media-body h4{
+		margin-top:0px;
+		margin-bottom:20px;
+		font-size: 24px;
+	}
+}
+.list-left .media-body a,
+.list-left .media-body a:hover{
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.list-left .media-body h6 a,
+.list-left .media-body h6 span{
+	padding-left: .2em;
+	padding-right: .2em;
+}
+@media (min-width: 749px){
+	.list-left .media-body h6{
+		text-align: right;
+	}
+}
+#index-list .post-box{
+	margin-bottom:10px;
 }
