@@ -549,7 +549,7 @@ body{
 	.list-left .media-left{
 		display:block;
 		width: 100%;
-		padding-right:10px;
+		padding-right:0px;
 	}
 	.media-box{
 		width: 100%;
@@ -589,4 +589,12 @@ body{
 }
 #index-list .post-box{
 	margin-bottom:10px;
+}
+#index-list pre{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+.list-left>ul>li{
+	margin-top:40px;
+	padding-bottom:36px;
 }
