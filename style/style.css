@@ -10,6 +10,7 @@ body{
 		padding-top:55px;
 	}
 }
+.subname{text-indent:2em}
 .cat>a:hover,
 .tit>p>a:hover,
 .tit>h3>a:hover,
