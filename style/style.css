@@ -46,7 +46,8 @@ body{
 }
 .top-box,
 .post-box,
-.more-text-box{
+.more-text-box,
+.media-box{
 	overflow: hidden;
 	background-repeat:no-repeat;
 	background-position:center center;
