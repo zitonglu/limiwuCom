@@ -40,18 +40,25 @@ body{
 .body{
 	padding-bottom: 20px;
 }
-.post-list{
+.post-list,
+.left-list{
 	padding:5px;
 }
 .top-box,
 .post-box,
-.more-text-box,
-.media-box{
-	height: 240px;
+.more-text-box{
 	overflow: hidden;
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-size:cover;
+}
+.top-box,
+.post-box,
+.more-text-box{
+	height:240px;
+}
+.media-box{
+	height:180px;
 }
 .post-box{
 	border-style:solid;
@@ -405,7 +412,7 @@ body{
 	font-size:12px;
 	font-weight:300;
 }
-.media-list {
+#index-list .media-list {
     margin-top: 18px;
 }
 @media (max-width: 749px){
@@ -559,38 +566,40 @@ body{
 	margin-bottom:5px;
 	margin-top:5px;
 }
-.list-left .media-body h4{
+.list-left h4{
 	font-weight: bold;
 }
 @media (min-width: 479px){
-	.list-left .media-body h4{
+	.list-left h4{
 		margin-top:0px;
 		margin-bottom:20px;
 		font-size: 24px;
 	}
 }
-.list-left .media-body a,
-.list-left .media-body a:hover{
+.list-left a,
+.list-left a:hover{
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
 }
-.list-left .media-body h6 a,
-.list-left .media-body h6 span{
+.list-left h6 a,
+.list-left h6 span{
 	padding-left: .2em;
 	padding-right: .2em;
 }
 @media (min-width: 749px){
-	.list-left .media-body h6{
+	.list-left h6{
 		text-align: right;
 	}
 }
-#index-list .post-box{
+#index-list .post-box,
+#index-there .post-box{
 	margin-bottom:10px;
 }
-#index-list pre{
+#index-list pre,
+#index-there pre{
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }

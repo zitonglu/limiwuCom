@@ -220,7 +220,7 @@ body,
 	color: #428bca;
 }
 .list-left>ul>li{
-	border-bottom:1px dotted #428bca;
+	border-bottom:1px dotted #ddd;
 }
 .list-left>ul>li:last-child{
 	border-bottom:none;
