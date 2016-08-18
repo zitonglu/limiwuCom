@@ -311,7 +311,9 @@ body{
 .next-pre-text a:hover,
 .next-pre-text a:focus,
 .more-text-box p a:hover,
-.more-text-box p a:focus{
+.more-text-box p a:focus,
+.istop p a:hover,
+.istop p a:focus{
 	text-decoration: none;
 }
 .more-share{
@@ -622,4 +624,15 @@ body{
 .list-left>ul>li{
 	margin-top:40px;
 	padding-bottom:36px;
+}
+.istop p a{
+	font-weight: 700;
+}
+.istop span{
+	margin-left:10px;
+	margin-right:10px;
+}
+.istop b{
+	float: right;
+	margin-right: 10px;
 }
