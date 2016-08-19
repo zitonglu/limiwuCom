@@ -242,9 +242,11 @@ body{
 .single-box{
 	padding: 5px;
 }
-.single-left,
+.single-left{
+	padding:20px 50px;
+}
 .list-left{
-	padding: 20px;
+	padding:20px;
 }
 @media (max-width: 749px){
 	.single-box{
@@ -305,8 +307,12 @@ body{
 	padding:10px auto;
 	margin:30px auto;
 }
-.next-pre-text{
-	margin: 0px;
+p.next-pre-text{
+	margin-top:50px;
+	margin-bottom:0px;
+}
+p.next-pre-text:last-child{
+	margin-top:0px;
 }
 .next-pre-text a:hover,
 .next-pre-text a:focus,
