@@ -584,6 +584,9 @@ body{
 	margin-bottom:5px;
 	margin-top:5px;
 }
+.media small{
+	margin-left: .5em;
+}
 .list-left h4{
 	font-weight: bold;
 }
@@ -611,6 +614,10 @@ body{
 	.list-left h6{
 		text-align: right;
 	}
+	.list-left>ul>li{
+		margin-top:32px;
+		padding-bottom:30px;
+	}
 }
 #index-list .post-box,
 #index-there .post-box{
@@ -621,16 +628,12 @@ body{
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }
-.list-left>ul>li{
-	margin-top:40px;
-	padding-bottom:36px;
-}
 .istop p a{
 	font-weight: 700;
 }
 .istop span{
 	margin-left:10px;
-	margin-right:10px;
+	margin-right:5px;
 }
 .istop b{
 	float: right;

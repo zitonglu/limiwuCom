@@ -205,17 +205,13 @@ body,
 .list-left{
 	color: #555;
 }
-.list-left .media-body h4 small{
+.list-left h4 small{
 	color: #98699b;
 }
-/*.list-left .media-body h4 a{
-	color: #333;
-}*/
 .list-left .media-body h6 a,
 .list-left .media-body h6{
 	color: #777;
 }
-/*.list-left .media-body h4 a:hover,*/
 .list-left .media-body h6 a:hover{
 	color: #428bca;
 }
@@ -231,13 +227,15 @@ body,
 .media-box:hover:after{
 	box-shadow:inset 0 0 0 6px rgba(255,255,255,0.3);
 }
-#divPrevious a{
+.istop a{
+	color: #555;
+}
+.istop a:hover{
+	color:#98699b;
+}
+#divPrevious li a{
 	color: #777;
 }
-#divPrevious li:hover a,
-.istop span{
-	color: #98699b;
-}
-.istop span a{
-	color: #555;
+#divPrevious li:hover a{
+	color:#98699b;
 }
