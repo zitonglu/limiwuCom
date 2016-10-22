@@ -30,7 +30,9 @@ body{
 .post-box .tit h3,
 .post-box:hover .tit h3,
 .post-box .tit>h3>a,
-.post-box:hover .tit>h3>a{
+.post-box:hover .tit>h3>a,
+#divPrevious li:hover,
+#divPrevious li{
 	-webkit-transition: all .8s;
 	-moz-transition: all .8s;
 	-ms-transition: all .8s;
@@ -47,8 +49,7 @@ body{
 .top-box,
 .post-box,
 .more-text-box,
-.media-box,
-.newsList{
+.media-box{
 	overflow: hidden;
 	background-repeat:no-repeat;
 	background-position:center center;
@@ -75,9 +76,7 @@ body{
 .media-box:after,
 .media-box:hover:after,
 #divPrevious li p,
-#divPrevious li:hover p,
-#divPrevious li .newsList,
-#divPrevious li:hover .newsList{
+#divPrevious li:hover p{
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
@@ -571,17 +570,6 @@ p.next-pre-text:last-child{
 .tag-count{
 	font-size: 10px;
 }
-.newsList{
-	width: 100%;
-	height: 140px;
-}
-.newsList p{
-	margin-top: 116px;
-	padding-left: 3px;
-	height: 24px;
-	overflow: hidden;
-	font-size: 14px;
-}
 .list-left .media-left{
 	padding-right:20px;
 }
@@ -653,4 +641,14 @@ p.next-pre-text:last-child{
 .istop b{
 	float: right;
 	margin-right: 10px;
+}
+#divPrevious li img{
+	width:100%;
+	height:auto;
+}
+#divPrevious li p{
+	margin-bottom:0;
+}
+#divPrevious li{
+	border: 1px solid white;
 }
